@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #233142; 
+}
+.border{
+    border: 1px solid red;
+}
+
+.card{
+    height: 420px;
+    width: 600px;
+    margin-top: 18vh;
+    background-color:#455d7a;
+    border-radius: 5px;
+}
+.head{
+    display: flex;
+    height: 90px;
+    align-items: center;
+}
+.text1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 15px;
+    color: #051328;
+}
+.img1{
+    height: 40px;
+    width: 40px;
+}
+.main{
+    height: 120px;
+    margin: 0 20px;
+    padding: 15px;
+}
+.show{
+    display: flex;
+    height: 50PX;
+    background-color: #e7eaf6;
+    border-radius: 7px;
+    align-items: center;
+}
+
+.pass{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.hide{
+    font-size: 22px;
+    margin-left: 30px;
+    background-color: #e7eaf6;
+    position: absolute;
+    z-index: -1;
+    font-weight: 600;
+}
+.img2{
+    position: sticky;
+    left: 68%;
+    padding: 10px;
+    cursor: pointer;
+    height: 25px;
+}
+.img2:active{
+    padding: 15px; 
+    height: 30px; 
+}
+.img3{
+    position: sticky;
+    left: 62%;
+    padding: 10px;
+    cursor: pointer;
+    height: 25px;
+}
+.img3:active{
+    padding: 12px; 
+    height: 25px; 
+}
+
+.btn{
+    background-color: #a2a8d3;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 200px;
+    margin-top: 15px;
+    border-radius: 25px;
+    color: #051328;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    height: 55px;
+    width: 210px;
+    background-color: #6f78bc;
+}
+.foot{
+    margin: 0 20px;
+    padding: 15px;  
+}
+.p1{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.chake{
+    font-size: 20px;
+    margin: 12px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+.box{
+    height: 25px;
+    width: 45px;
+    cursor: pointer;
+}
+.box:hover{
+    height: 27px;
+    width: 50px;
+}
+.input{
+    font-size: 20px;
+    margin: 12px 0;
+    gap: 8px;
+    font-weight: bold;
+    display: none;
+}
+.chnum{
+    height: 25px;
+    width: 60px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    padding: 0 10px;
+
+}
+.warning{
+    color: #6b0d0d;
+    font-weight: normal;
+}

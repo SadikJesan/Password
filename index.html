@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="card">
+        <div class="head">
+            <p class="text1">Password Generator</p>
+            <img class="img1" src="key.svg" alt="">
+        </div>
+        <div class="main">
+            <div class="show">
+                <div class="pass"></div>
+                <div class="hide"></div>
+                <img class="img3" src="hide.svg" alt="">
+                <img class="img2" src="copy.svg" alt="">
+            </div>
+            <button class="btn">Generate Password</button>
+        </div>
+        <div class="foot">
+            <p class="p1">*By default, this website generates 8-character passwords. </p>
+
+            <div class="chake">
+                <input type="checkbox" class="box">
+                <div class="p2">However, if you’d like to generate passwords with more or fewer characters, simply check the corresponding box.
+                </div>
+            </div>
+
+            <div class="input">
+                <p>Number of character :</p>
+                <input type="number" class="chnum">
+                <div class="warning">Max-limit = 35 characters</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
